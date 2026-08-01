@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- BLAST rendering -->
+    <item target="bool/config_ui_enable_blast_resource_caching" value="@bool/config_ui_enable_blast_resource_caching" />
+    <item target="bool/config_use_triple_buffering" value="@bool/config_use_triple_buffering" />
+    <item target="bool/config_use_vulkan_for_graphics" value="@bool/config_use_vulkan_for_graphics" />
+    <item target="integer/config_num_resource_cache_size" value="@integer/config_num_resource_cache_size" />
+    <!-- Refresh rate -->
+    <item target="integer/config_defaultPeakRefreshRate" value="@integer/config_defaultPeakRefreshRate" />
+    <item target="integer/config_defaultRefreshRate" value="@integer/config_defaultRefreshRate" />
+    <!-- Status bar y notch -->
+    <item target="dimen/status_bar_height_portrait" value="@dimen/status_bar_height_portrait" />
+    <item target="dimen/status_bar_height_default" value="@dimen/status_bar_height_default" />
+    <item target="dimen/display_cutout_margin_consumption" value="@dimen/display_cutout_margin_consumption" />
+    <item target="dimen/status_bar_padding_top" value="@dimen/status_bar_padding_top" />
+    <item target="dimen/status_bar_padding_start" value="@dimen/status_bar_padding_start" />
+    <item target="dimen/status_bar_padding_end" value="@dimen/status_bar_padding_end" />
+    <!-- Esquinas redondeadas -->
+    <item target="dimen/rounded_corner_radius" value="@dimen/rounded_corner_radius" />
+    <item target="dimen/rounded_corner_radius_top" value="@dimen/rounded_corner_radius_top" />
+    <item target="dimen/rounded_corner_radius_bottom" value="@dimen/rounded_corner_radius_bottom" />
+    <item target="bool/config_roundedCornerMultipleRadius" value="@bool/config_roundedCornerMultipleRadius" />
+    <item target="bool/config_fillMainBuiltInDisplayCutout" value="@bool/config_fillMainBuiltInDisplayCutout" />
+    <item target="bool/config_maskMainBuiltInDisplayCutout" value="@bool/config_maskMainBuiltInDisplayCutout" />
+    <item target="bool/config_supportsRoundedCornersOnCondition" value="@bool/config_supportsRoundedCornersOnCondition" />
+    <!-- Display y color -->
+    <item target="bool/config_setColorTransformAccelerated" value="@bool/config_setColorTransformAccelerated" />
+    <item target="array/config_availableColorModes" value="@array/config_availableColorModes" />
+    <item target="integer/config_defaultDisplayColorMode" value="@integer/config_defaultDisplayColorMode" />
+    <!-- Brillo automático -->
+    <item target="bool/config_automatic_brightness_available" value="@bool/config_automatic_brightness_available" />
+    <item target="bool/config_displayWhiteBalanceAvailable" value="@bool/config_displayWhiteBalanceAvailable" />
+    <item target="bool/config_nightDisplayAvailable" value="@bool/config_nightDisplayAvailable" />
+    <item target="bool/config_unplugTurnsOnScreen" value="@bool/config_unplugTurnsOnScreen" />
+    <item target="integer/config_screenBrightnessDim" value="@integer/config_screenBrightnessDim" />
+    <item target="integer/config_screenBrightnessSettingMinimum" value="@integer/config_screenBrightnessSettingMinimum" />
+    <item target="integer/config_screenBrightnessSettingMaximum" value="@integer/config_screenBrightnessSettingMaximum" />
+    <item target="integer/config_autoBrightnessBrighteningLightDebounce" value="@integer/config_autoBrightnessBrighteningLightDebounce" />
+    <item target="integer/config_autoBrightnessDarkeningLightDebounce" value="@integer/config_autoBrightnessDarkeningLightDebounce" />
+    <!-- Multiusuario -->
+    <item target="integer/config_multiuserMaximumUsers" value="@integer/config_multiuserMaximumUsers" />
+    <item target="bool/config_enableMultiUserUI" value="@bool/config_enableMultiUserUI" />
+    <item target="bool/config_guestUserEphemeral" value="@bool/config_guestUserEphemeral" />
+    <!-- Telefonía y red -->
+    <item target="bool/config_allow_ussd_over_ims" value="@bool/config_allow_ussd_over_ims" />
+    <item target="bool/config_device_volte_available" value="@bool/config_device_volte_available" />
+    <item target="bool/config_device_vt_available" value="@bool/config_device_vt_available" />
+    <item target="bool/config_device_wfc_ims_available" value="@bool/config_device_wfc_ims_available" />
+    <item target="bool/config_switch_phone_on_voice_reg_state_change" value="@bool/config_switch_phone_on_voice_reg_state_change" />
+    <!-- IMS MediaTek: fixes de llamadas -->
+    <item target="bool/config_carrier_volte_available" value="@bool/config_carrier_volte_available" />
+    <item target="bool/config_dynamic_bind_ims" value="@bool/config_dynamic_bind_ims" />
+    <!-- Misceláneos del stock -->
+    <item target="bool/config_showNavigationBar" value="@bool/config_showNavigationBar" />
+    <item target="bool/config_zramWriteback" value="@bool/config_zramWriteback" />
+    <item target="bool/config_useDevInputEventForAudioJack" value="@bool/config_useDevInputEventForAudioJack" />
+    <item target="bool/config_enable_pinner_service" value="@bool/config_enable_pinner_service" />
+    <item target="bool/config_suspend_to_ram" value="@bool/config_suspend_to_ram" />
+    <item target="bool/config_hotswapCapable" value="@bool/config_hotswapCapable" />
+    <item target="bool/config_powerDecoupleAutoSuspendModeFromDisplay" value="@bool/config_powerDecoupleAutoSuspendModeFromDisplay" />
+    <item target="bool/config_powerDecoupleInteractiveModeFromDisplay" value="@bool/config_powerDecoupleInteractiveModeFromDisplay" />
+    <item target="bool/config_smart_battery_available" value="@bool/config_smart_battery_available" />
+    <!-- Highpriomisc fixes -->
+    <item target="bool/config_swipe_up_gesture_setting_available" value="@bool/config_swipe_up_gesture_setting_available" />
+    <item target="bool/config_volumeAdjustmentForRemoteGroupSessions" value="@bool/config_volumeAdjustmentForRemoteGroupSessions" />
+    <!-- Energía y audio -->
+    <item target="integer/config_shortPressOnPowerBehavior" value="@integer/config_shortPressOnPowerBehavior" />
+    <item target="integer/config_shutdownBatteryTemperature" value="@integer/config_shutdownBatteryTemperature" />
+    <item target="integer/config_audio_notif_vol_steps" value="@integer/config_audio_notif_vol_steps" />
+    <item target="integer/config_audio_ring_vol_steps" value="@integer/config_audio_ring_vol_steps" />
+    <item target="integer/config_audio_notif_vol_default" value="@integer/config_audio_notif_vol_default" />
+    <item target="integer/config_audio_ring_vol_default" value="@integer/config_audio_ring_vol_default" />
+    <item target="integer/config_safe_media_volume_index" value="@integer/config_safe_media_volume_index" />
+    <item target="integer/config_nightDisplayColorTemperatureDefault" value="@integer/config_nightDisplayColorTemperatureDefault" />
+    <item target="integer/config_nightDisplayColorTemperatureMax" value="@integer/config_nightDisplayColorTemperatureMax" />
+    <item target="integer/config_nightDisplayColorTemperatureMin" value="@integer/config_nightDisplayColorTemperatureMin" />
+    <item target="string/config_mainBuiltInDisplayCutout" value="@string/config_mainBuiltInDisplayCutout" />
+</overlay>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Curva de brillo automático del G24 Power stock -->
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>1</item><item>2</item><item>3</item><item>10</item><item>20</item><item>50</item>
+        <item>70</item><item>85</item><item>110</item><item>130</item><item>150</item><item>180</item>
+        <item>180</item><item>180</item><item>180</item><item>210</item><item>210</item><item>210</item>
+        <item>220</item><item>225</item><item>225</item><item>350</item><item>450</item><item>450</item>
+        <item>450</item><item>450</item><item>562</item><item>562</item><item>563</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item><item>2</item><item>5</item><item>10</item><item>29</item><item>50</item>
+        <item>90</item><item>100</item><item>150</item><item>200</item><item>300</item><item>400</item>
+        <item>500</item><item>800</item><item>1000</item><item>1300</item><item>1500</item><item>1600</item>
+        <item>1800</item><item>2000</item><item>3000</item><item>4000</item><item>8000</item><item>10000</item>
+        <item>20000</item><item>30000</item><item>40000</item><item>50000</item>
+    </integer-array>
+    <!-- Modos de color: solo 0 y 2 como en el stock del G24 Power y G31 -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item>
+        <item>2</item>
+    </integer-array>
+    <!-- Backlight del G24 Power stock -->
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>2</item><item>6</item><item>11</item><item>28</item><item>40</item><item>48</item>
+        <item>62</item><item>74</item><item>85</item><item>102</item><item>119</item><item>125</item>
+        <item>128</item><item>198</item><item>255</item><item>255</item><item>255</item>
+    </integer-array>
+    <integer-array name="config_screenBrightnessNits">
+        <item>3</item><item>10</item><item>20</item><item>50</item><item>70</item><item>85</item>
+        <item>110</item><item>130</item><item>150</item><item>180</item><item>210</item><item>220</item>
+        <item>225</item><item>350</item><item>450</item><item>562</item><item>563</item>
+    </integer-array>
+    <!-- Pinner service: archivos del framework MediaTek -->
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm/boot-mediatek-framework.vdex</item>
+        <item>/system/lib/libjavacrypto.so</item>
+        <item>/system/lib/libhidltransport.so</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-conscrypt.oat</item>
+        <item>/system/framework/arm/boot-core-libart.vdex</item>
+        <item>/system/framework/arm/boot-ext.vdex</item>
+        <item>/system/framework/arm/boot.vdex</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+    </string-array>
+    <!-- Patrones de vibración del stock G24 Power -->
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>70</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>45</item>
+    </integer-array>
+    <integer-array name="config_clockTickVibePattern">
+        <item>0</item>
+        <item>30</item>
+    </integer-array>
+    <!-- TCP buffers completos del stock -->
+    <string-array name="config_network_type_tcp_buffers">
+        <item>GPRS:4092,8760,48000,4096,8760,48000</item>
+        <item>EDGE:4093,26280,70800,4096,16384,70800</item>
+        <item>UMTS:58254,349525,1048576,58254,349525,1048576</item>
+        <item>CDMA:4094,87380,262144,4096,16384,262144</item>
+        <item>1xRTT:16384,32768,131072,4096,16384,102400</item>
+        <item>EvDo_0:4094,87380,262144,4096,16384,262144</item>
+        <item>EvDo_A:4094,87380,262144,4096,16384,262144</item>
+        <item>HSDPA:61167,367002,1101005,8738,52429,262114</item>
+        <item>HSUPA:40778,244668,734003,16777,100663,301990</item>
+        <item>HSPA:40778,244668,734003,16777,100663,301990</item>
+        <item>EvDo_B:4094,87380,262144,4096,16384,262144</item>
+        <item>eHRPD:131072,262144,1048576,4096,16384,524288</item>
+        <item>iDEN:4094,87380,262144,4096,16384,262144</item>
+        <item>LTE:2097152,4194304,8388608,262144,524288,2097152</item>
+        <item>HSPA+:122334,734003,2202010,32040,192239,576717</item>
+        <item>GSM:4092,8760,48000,4096,8760,48000</item>
+        <item>TD_SCDMA:58254,349525,1048576,58254,349525,1048576</item>
+        <item>LTE_CA:4096,6291456,12582912,4096,1048576,2097152</item>
+        <item>NR_NSA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_NSA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+    </string-array>
+    <!-- networkAttributes completo del stock -->
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>ethernet,9,9,9,-1,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,-1,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+        <item>mobile_mcx,1001,0,3,60000,true</item>
+        <item>mobile_xcap,1002,0,3,60000,true</item>
+        <item>mobile_rcs,2001,0,3,60000,true</item>
+        <item>mobile_bip,2002,0,3,60000,true</item>
+        <item>mobile_vsim,2003,0,-1,60000,true</item>
+    </string-array>
+</resources>

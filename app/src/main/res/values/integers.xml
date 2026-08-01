@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- G24 Power es 90Hz máximo -->
+    <integer name="config_defaultPeakRefreshRate">90</integer>
+    <!-- 0 = el sistema elige dinámicamente, igual que el stock -->
+    <integer name="config_defaultRefreshRate">0</integer>
+    <!-- Cache de recursos en 0 porque BLAST resource caching está desactivado -->
+    <integer name="config_num_resource_cache_size">0</integer>
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <integer name="config_screenBrightnessDim">19</integer>
+    <!-- Modo de color por defecto: modo 2 (Natural), consistente con config_availableColorModes -->
+    <integer name="config_defaultDisplayColorMode">2</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <!-- Debounce del stock G24 Power -->
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+    <!-- Temperatura de apagado por batería del stock -->
+    <integer name="config_shutdownBatteryTemperature">700</integer>
+    <!-- Comportamiento del botón de encendido corto: 1 = encender pantalla -->
+    <integer name="config_shortPressOnPowerBehavior">1</integer>
+    <!-- Pasos de volumen del stock -->
+    <integer name="config_audio_notif_vol_steps">7</integer>
+    <integer name="config_audio_ring_vol_steps">7</integer>
+    <integer name="config_audio_notif_vol_default">5</integer>
+    <integer name="config_audio_ring_vol_default">5</integer>
+    <!-- Volumen seguro de medios del stock -->
+    <integer name="config_safe_media_volume_index">9</integer>
+    <!-- Night display del stock -->
+    <integer name="config_nightDisplayColorTemperatureDefault">3680</integer>
+    <integer name="config_nightDisplayColorTemperatureMax">5145</integer>
+    <integer name="config_nightDisplayColorTemperatureMin">1600</integer>
+</resources>

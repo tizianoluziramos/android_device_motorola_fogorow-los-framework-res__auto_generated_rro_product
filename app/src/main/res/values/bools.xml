@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Del stock G24 Power -->
+    <bool name="config_allow_ussd_over_ims">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_smart_battery_available">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_use_sim_language_file">true</bool>
+    <bool name="config_zramWriteback">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <!-- Fix GSI display -->
+    <bool name="config_displayWhiteBalanceAvailable">true</bool>
+    <bool name="config_nightDisplayAvailable">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_maskMainBuiltInDisplayCutout">false</bool>
+    <!-- config_roundedCornerMultipleRadius en false: el G24 tiene radio único -->
+    <bool name="config_roundedCornerMultipleRadius">false</bool>
+    <bool name="config_supportsRoundedCornersOnCondition">false</bool>
+    <!-- Multiusuario -->
+    <bool name="config_guestUserEphemeral">false</bool>
+    <!-- BLAST fix: deshabilitar resource caching, no triple buffering -->
+    <bool name="config_ui_enable_blast_resource_caching">false</bool>
+    <bool name="config_use_triple_buffering">false</bool>
+    <!-- Vulkan activo: G24 Power tiene Mali-G52 con soporte Vulkan 1.1 -->
+    <bool name="config_use_vulkan_for_graphics">true</bool>
+    <!-- Pinner service mejora latencia en GSI -->
+    <bool name="config_enable_pinner_service">true</bool>
+    <!-- NO marcar como low RAM -->
+    <bool name="config_low_ram">false</bool>
+    <!-- suspend_to_ram desactivado: causa bootloop en GSI con bootloader Moto -->
+    <bool name="config_suspend_to_ram">false</bool>
+    <!-- Fix llamadas MTK: del treble-overlay-mtk-ims -->
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_dynamic_bind_ims">true</bool>
+    <!-- Fix gestos y volumen: del treble-overlay-highpriomisc -->
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_volumeAdjustmentForRemoteGroupSessions">true</bool>
+    <!-- VoLTE del stock -->
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+</resources>

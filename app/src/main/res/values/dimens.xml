@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Altura de status bar del stock G24 Power: 44dp -->
+    <dimen name="status_bar_height_default">44.0dp</dimen>
+    <dimen name="status_bar_height_landscape">44.0dp</dimen>
+    <dimen name="status_bar_height_portrait">44.0dp</dimen>
+    <!-- Margen de notch igual a la altura -->
+    <dimen name="display_cutout_margin_consumption">44.0dp</dimen>
+    <!-- Padding interno de la barra de estado -->
+    <dimen name="status_bar_padding_top">12.0dp</dimen>
+    <dimen name="status_bar_padding_start">12.0dp</dimen>
+    <dimen name="status_bar_padding_end">12.0dp</dimen>
+    <!-- Esquinas redondeadas del stock G24 Power -->
+    <dimen name="rounded_corner_radius">54.0px</dimen>
+    <dimen name="rounded_corner_radius_top">54.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">54.0px</dimen>
+    <dimen name="rounded_corner_content_padding">20.0dp</dimen>
+</resources>
